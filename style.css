@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Love Ya Like A Sister';
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: url(./bg.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 60%;
+    height: 80vh;
+    background: linear-gradient(-60deg, #d72638,#fa7ebd);
+    border-radius: 20px;
+    background-size: 150% 150%;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    box-shadow: -7px -7px 10px 5px #d7263850;
+}
+.container h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the button */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fa7ebd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Style the button on hover */
+button:hover {
+    background-color: #d72638;
+}
+.answer{
+    display: none;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 1rem;
+    transition: all 1s ease;
+}
+.answer:hover{
+    transform: scaleX(1.1);
+}
